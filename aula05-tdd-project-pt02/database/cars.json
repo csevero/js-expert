@@ -1,0 +1,23 @@
+[
+  {
+    "id": "7485f563-b3e6-448d-9809-1faa810edb61",
+    "name": "Grand Caravan",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "4f577861-8123-4c5e-8e87-c85b016146a8",
+    "name": "PT Cruiser",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "ff7cbd21-551d-4b05-91b7-4c82336b9d85",
+    "name": "El Camino",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  }
+]
