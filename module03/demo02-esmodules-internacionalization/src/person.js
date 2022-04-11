@@ -41,8 +41,6 @@ export default class Person {
     const EMPTY_SPACE = ' ';
     const [id, vehicles, kmTraveled, from, to] = text.split(EMPTY_SPACE);
 
-    if (text.split(EMPTY_SPACE).length !== 5) throw new Error('Format invalid');
-
     const person = new Person({
       id,
       kmTraveled,
