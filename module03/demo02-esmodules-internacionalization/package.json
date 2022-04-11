@@ -5,12 +5,15 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "nodemon --ignore database.json --exec node --experimental-json-modules src/index.js"
+    "dev": "nodemon --ignore database.json --exec node --experimental-json-modules --experimental-top-level-await src/index.js"
   },
   "dependencies": {
     "chalk": "^5.0.1",
     "chalk-table": "^1.0.2",
     "draftlog": "^1.0.13"
+  },
+  "engines": {
+    "node": "14.19"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
