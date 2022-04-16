@@ -30,11 +30,13 @@ assert.deepStrictEqual([...main()], ['Hello', '-', 'World', 200]);
 //async iterators
 const { readFile, stat, readdir } = require('fs/promises');
 
+//generator function synchronous  
 function* promiseField() {
   yield readFile(__filename);
   yield Promise.resolve('Hey dude');
 }
 
+//generator function asynchronous 
 async function* systemInfo() {
   const file = await readFile(__filename);
   yield { value: file.toString() };
