@@ -1,0 +1,27 @@
+^\d{3}.\d{3}.\d{3}-\d{2}$
+
+123.123.123-14
+321.123.245-20
+200.300.500.20
+
+  replace: [.-]
+  replace by: empty
+
+Wendel, Erick
+Carlos, Joao
+Vinicius, Pedro
+
+in this case our regex is separated by groups, each group is the expression inside of parenthesis, our first group is the text match, the second is the (\w+) and the third is the (\w+), remember that the sequence start on 0. 
+  replace: ^(\w+),\s(\w+)$
+  replace by: {firstName: "$2", lastName: "$1"}
+
+
+O [Carlos](https://carlossevero.com.br) faz vídeos no [Youtube](https://youtube.com), me siga no [Instagram](https://instagram.com)
+
+E também no [Google](https://google.com)
+Corre lá no [Notion](https://notion.so)
+
+in this case we replace the markdown link to html anchor link
+  replace: \[(.*?)\]\(([http|https].*?)\)
+  replace by: <a href="$2">$1</a>
+
