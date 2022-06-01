@@ -1,0 +1,22 @@
+{
+  "name": "aula02-project01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.4.0",
+    "chai": "^4.3.6",
+    "nyc": "^15.1.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "npx mocha -w --parallel test/*.test.js",
+    "test:cov": "npx nyc npx mocha --parallel test/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
