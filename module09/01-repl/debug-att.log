@@ -1,0 +1,47 @@
+list(100)
+set breakpoint 13
+cont
+setBreakpoint(13)
+pause
+setBreakpoint(13)
+stop
+help
+restart
+setBreakpoint(13)
+cont
+exec req
+exec res
+exec req.url
+exec new URLSearchParams(req.url)
+exec new URLSearchParams(req.url).get('salary')
+exec new URLSearchParams(req.url).get('discount')
+exec new URLSearchParams(req.url).get('/?salary')
+exec Object.fromEntries(new URLSearchParams(req.url))
+r
+list(100)
+clearBreakpoint('index.mjs', 13)
+breakpoints
+sb(16)
+cont
+next
+repl
+data
+r
+c
+repl
+netSalary
+n
+n
+repl
+netSalary(data)
+breakpoints
+cb('index.mjs', 16)
+breakpoints
+r
+c
+exec result 
+repl
+result
+
+c
+save debug-att.log
