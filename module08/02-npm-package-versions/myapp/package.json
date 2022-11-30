@@ -1,0 +1,17 @@
+{
+  "name": "@kissinger156/myapp",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-json-modules index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "kissinger156",
+  "license": "ISC",
+  "dependencies": {
+    "@kissinger156/fluentsql": "^1.1.0"
+  }
+}
