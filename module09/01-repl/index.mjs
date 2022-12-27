@@ -17,6 +17,7 @@ http
 
     const result = netSalary(data);
 
+    // we can use the debugger word to set a breakpoint using the repl
     // debugger;
 
     res.end(`O seu salário final é ${result}`);

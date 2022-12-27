@@ -1,3 +1,4 @@
+node inspect index.mjs
 list(100)
 setBreakpoint(13)
 cont
