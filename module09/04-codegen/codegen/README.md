@@ -1,14 +1,14 @@
-- [ ] creates `src` main folder if it not exists
+- [X] creates `src` main folder if it not exists
 
-- [ ] creates `repository` layer
+- [X] creates `repository` layer
 
-- [ ] creates `service` layer with `repository` as dependency
+- [X] creates `service` layer with `repository` as dependency
 
-- [ ] creates `factory` layer with `service` and `repository` returning its instances
+- [X] creates `factory` layer with `service` and `repository` returning its instances
 
 - [ ] can create multiples domains with a single comand
 
-- [ ] saves files as `camelCase` and classes as `PascalCase`
+- [X] saves files as `camelCase` and classes as `PascalCase`
 
 - [ ] reaches **100% test coverage**
 
