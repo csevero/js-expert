@@ -1,5 +1,5 @@
-export default `import ProductService from '../services/productService.js';
-import ProductRepository from '../services/productRepository.js';
+export default `import ProductService from '../service/productService.js';
+import ProductRepository from '../repository/productRepository.js';
 
 export default class ProductFactory {
   static getInstance() {
