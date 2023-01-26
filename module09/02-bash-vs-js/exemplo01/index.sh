@@ -11,7 +11,7 @@ mkdir -p $folder
 # using the pwd to get complete path and concatening with the folder's name
 cd $(pwd)/$folder
 # after access folder with cd we're initilizing a npm project, and to don't return the return, we're sending it to /dev/null
-npm init -y --scope @kissinger156 --silent > /dev/null
+npm init -y --scope @csevero --silent > /dev/null
 # after initialize our project, we're getting the content or our package.json and formatting it using the jq to bring just the name and version of project
 cat package.json | jq '{n: .name, v: .version}'
 cd ..

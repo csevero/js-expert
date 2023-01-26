@@ -1,5 +1,5 @@
 {
-  "name": "@kissinger156/codegen",
+  "name": "@csevero/codegen",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "test:cov": "NODE_OPTIONS=--experimental-vm-modules npx jest --config jest.config.mjs --coverage "
   },
   "keywords": [],
-  "author": "kissinger156",
+  "author": "csevero",
   "license": "ISC",
   "devDependencies": {
     "jest": "^26.6.3"

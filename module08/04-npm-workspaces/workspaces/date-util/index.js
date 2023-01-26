@@ -1,4 +1,4 @@
-import StringUtil from '@kissinger156/string-util';
+import StringUtil from '@csevero/string-util';
 
 const availableFormats = {
   "dd-mm-yyyy": '$<day>-$<month>-$<year>',

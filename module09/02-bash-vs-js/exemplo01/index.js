@@ -13,7 +13,7 @@ const makeDirAndReturnName = folderName => {
 };
 
 const initializePackage = folderName => {
-  execSync(`npm init -y --scope @kissinger156 --silent`, {
+  execSync(`npm init -y --scope @csevero --silent`, {
     cwd: `./${folderName}`
   })
 

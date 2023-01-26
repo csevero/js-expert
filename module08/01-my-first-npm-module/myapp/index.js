@@ -1,4 +1,4 @@
-import FluentSQLBuilder from '@kissinger156/fluentsql'
+import FluentSQLBuilder from '@csevero/fluentsql'
 
 import database from './database/data.json'
 

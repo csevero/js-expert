@@ -1,5 +1,5 @@
 {
-  "name": "@kissinger156/date-util",
+  "name": "@csevero/date-util",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,6 +17,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@kissinger156/string-util": "^1.0.0"
+    "@csevero/string-util": "^1.0.0"
   }
 }

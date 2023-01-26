@@ -1,5 +1,5 @@
 {
-  "name": "@kissinger156/class01",
+  "name": "@csevero/class01",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -8,6 +8,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "kissinger156",
+  "author": "csevero",
   "license": "ISC"
 }

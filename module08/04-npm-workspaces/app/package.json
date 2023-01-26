@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@kissinger156/date-util": "^1.0.0"
+    "@csevero/date-util": "^1.0.0"
   }
 }
